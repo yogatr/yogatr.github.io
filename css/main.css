@@ -135,3 +135,69 @@ html {
 .description.hidden p {
   transform: translateY(5vh);
 }
+
+/* Small screens */
+@media (max-width: 767px) {
+  .description {
+    z-index: 2;
+    font-size: 16px;
+    top: 10vh;
+    left: 5vw;
+    max-width: 90vw;
+  }
+
+  .slider__img {
+    z-index: 1;
+    width: 500%;
+    left: -200%;
+  }
+
+  .button {
+    font-size: 14px;
+    padding: 6px 16px;
+  }
+}
+
+/* Medium screens */
+@media (min-width: 768px) and (max-width: 991px) {
+  .description {
+    z-index: 2;
+    font-size: 18px;
+    top: 12vh;
+    left: 7vw;
+    max-width: 70vw;
+  }
+
+  .slider__img {
+    z-index: 1;
+    width: 400%;
+    left: -150%;
+  }
+
+  .button {
+    font-size: 16px;
+    padding: 8px 20px;
+  }
+}
+
+/* Large screens */
+@media (min-width: 992px) {
+  .description {
+    z-index: 2;
+    font-size: calc(var(--sizeindex) * 0.8);
+    top: 20vh;
+    left: 8vw;
+    max-width: 24vw;
+  }
+
+  .slider__img {
+    z-index: 1;
+    width: 300%;
+    left: -100%;
+  }
+
+  .button {
+    font-size: 16px;
+    padding: 6px 20px;
+  }
+}
