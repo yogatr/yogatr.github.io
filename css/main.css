@@ -61,6 +61,7 @@ html {
   transition: var(--transition) !important;
   will-change: transform;
 }
+
 .slide_bg {
   z-index: 0;
   transform: rotate(-20deg) !important;

@@ -5,11 +5,11 @@ const sliderMain = new Swiper(".slider_main", {
   parallax: true,
   breakpoints: {
     0: {
-      slidePerView: 2.5,
+      slidesPerView: 2.5,
       spaceBetween: 20,
     },
     680: {
-      slidePerView: 3.5,
+      slidesPerView: 3.5,
       spaceBetween: 60,
     },
   },
