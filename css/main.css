@@ -12,13 +12,13 @@
 
 @font-face {
   font-family: raleway_m;
-  src: url(/fonts/Raleway-Light.ttf);
+  src: url(.../fonts/Raleway-Light.ttf);
   font-weight: 300;
 }
 
 @font-face {
   font-family: raleway_m;
-  src: url(/fonts/Raleway-BlackItalic.ttf);
+  src: url(.../fonts/Raleway-BlackItalic.ttf);
   font-weight: 900;
 }
 
