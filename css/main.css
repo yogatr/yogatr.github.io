@@ -33,6 +33,27 @@ html {
   line-height: 1.8;
 }
 
+.button {
+  z-index: 3;
+  position: relative;
+  display: inline-block;
+  margin-top: 20px;
+  padding: 6px 20px;
+  border-radius: 50px;
+  background-color: #62699e;
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
+}
+
+.button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
+}
+
 .slider {
   height: 100%;
   transform: rotate(15deg);
@@ -62,10 +83,10 @@ html {
   will-change: transform;
 }
 
-.slide_bg {
+.slider_bg {
   z-index: 0;
   transform: rotate(-20deg) !important;
-  top: -90px;
+  top: -90vh;
   left: -10vh;
   opacity: 0.15;
   filter: blur(120px) saturate(10);
@@ -94,7 +115,7 @@ html {
   font-size: calc(var(--sizeindex) * 3.6);
   font-weight: 900;
   display: inline-block;
-  background: linear-gradient(45deg, darkmagenta, tomato, violet);
+  background: linear-gradient(45deg, #8929ad, #436aac, #43b7b8);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
