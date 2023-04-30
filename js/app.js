@@ -1,7 +1,10 @@
 const sliderMain = new Swiper(".slider_main", {
   freeMode: true,
   centeredSlides: true,
-  mousewheel: true,
+  mousewheel: {
+    eventsTarget: ".slider_main",
+    sensitivity: 2, // adjust this value to change the scroll speed
+  },
   parallax: true,
   breakpoints: {
     0: {
